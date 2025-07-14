@@ -1,5 +1,5 @@
 {% set name = "pytest-lazy-fixtures" %}
-{% set version = "1.1.4" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest_lazy_fixtures-{{ version }}.tar.gz
-  sha256: c494b52d798890033d64b28687a4d52807c8b0f606d56316e139df0cbe116c57
+  sha256: 2dd3327c8131049f65943f369463112d2ffcbebf663b323b6e6c4dae9a035fa4
 
 build:
   noarch: python
@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - poetry-core
+    - hatchling
     - pip
   run:
     - python >={{ python_min }},<4.0.0
