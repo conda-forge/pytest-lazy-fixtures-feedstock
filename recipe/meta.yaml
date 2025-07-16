@@ -1,5 +1,5 @@
 {% set name = "pytest-lazy-fixtures" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest_lazy_fixtures-{{ version }}.tar.gz
-  sha256: 2dd3327c8131049f65943f369463112d2ffcbebf663b323b6e6c4dae9a035fa4
+  sha256: a6d17abb45b926f6aaa74d91806241a9478eacc6aa062b33a16fba365e7a533f
 
 build:
   noarch: python
