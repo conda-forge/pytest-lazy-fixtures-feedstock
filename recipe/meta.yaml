@@ -1,13 +1,13 @@
 {% set name = "pytest-lazy-fixtures" %}
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest_lazy_fixtures-{{ version }}.tar.gz
-  sha256: f544b60c96b909b307558a62cc1f28f026f11e9f03d7f583a1dc636de3dbcb10
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pytest_lazy_fixtures-{{ version }}.tar.gz
+  sha256: 8684abfd4914ea01f1e2f7b24524739344421d8f3f12286fb3100fb5681e1181
 
 build:
   noarch: python
